@@ -30,6 +30,10 @@ body {
   width: 150px;
 }
 
+.menu-icon {
+  display: none;
+}
+
 nav {
   max-width: 1440px;
   display: flex;
@@ -38,8 +42,7 @@ nav {
   padding: 0 0 25px 0;
   border-bottom: 2px solid #e0e6ea;
 }
-.nav-links {
-}
+
 .links {
   margin-left: 60px;
   font-size: 14px;
@@ -112,14 +115,11 @@ nav {
   padding: 42px 30px;
 }
 
-.title {
-}
 .basic {
   padding-bottom: 35px;
   border-bottom: 2px solid #e0e6ea;
 }
-.sub-title {
-}
+
 .circle {
   border: 2px solid var(--blue);
   width: 35px;
@@ -131,8 +131,7 @@ nav {
   padding: 4px 3px 0 3px;
   color: var(--blue);
 }
-.input-field {
-}
+
 .payment {
   padding: 35px 0;
   border-bottom: 2px solid #e0e6ea;
@@ -337,22 +336,22 @@ i {
     font-size: 8px;
   }
 
-  .header{
+  .header {
     padding: 30px 20px;
   }
-  .logo{
+  .logo {
     width: 80px;
   }
   .nav-links {
     margin-left: 15px;
-}
-  .links{
+  }
+  .links {
     font-size: 8px;
     margin-left: 5px;
   }
   .links:nth-child(5) {
-  border-radius: 6px;
-  border: 2px solid var(--text);
-  padding: 4px 5px;
+    border-radius: 6px;
+    border: 2px solid var(--text);
+    padding: 4px 5px;
+  }
 }
-
