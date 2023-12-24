@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WP PUSHER</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- CDN LINK -->
+    <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet" />
+
+    <!-- boootstrap icon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <img class="logo" src="assets/wppusher-logo copy (1).png" alt="logo" />
+        <div class="nav-links">
+          <a class="links" href="#">Download</a>
+          <a class="links" href="#">Learn More</a>
+          <a class="links" href="#">Pricing</a>
+          <a class="links" href="#">Help</a>
+          <a class="links" href="#">Account</a>
+        </div>
+        <div class="menu-icon"></div>
+        <label for=" bb"></label>
+      </nav>
+    </header>
+
+    <section class="section">
+      <!-- CHECKOUT -->
+      <div class="checkout">
+        <h1 class="title">Checkout</h1>
+        <!-- basic div -->
+        <div class="basic">
+          <div class="payment-head">
+            <span class="circle">1</span>
+            <h2 class="sub-title">Your Basic Information</h2>
+          </div>
+          <form id="input">
+            <div class="input-field">
+              <label for="">First Name</label>
+              <input type="text" name="fn" placeholder="Jane" />
+            </div>
+            <div class="input-field">
+              <label for="">Last Name</label>
+              <input type="text" name="ls" placeholder="Doe" />
+            </div>
+            <div class="input-field">
+              <label for="">Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="janedoe@example.com"
+              />
+            </div>
+          </form>
+        </div>
+
+        <!-- payment information -->
+
+        <div class="payment">
+          <div class="payment-head">
+            <span class="circle"> 2 </span>
+            <h2 class="sub-title">Your Payment Information</h2>
+          </div>
+
+          <form id="input">
+            <div class="input-field">
+              <label class="flex-label" for="">Credit Card</label>
+              <div class="cc-flex">
+                <input
+                  class="join"
+                  type="number"
+                  name="cc"
+                  placeholder="Card Number"
+                />
+                <input
+                  class="join"
+                  type="datetime"
+                  name="dd"
+                  placeholder="MM / YY"
+                  maxlength="5"
+                />
+
+                <input
+                  class="join"
+                  type="number"
+                  name="cvc"
+                  placeholder="CVC"
+                  maxlength="3"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <button>Buy WP Pusher</button>
+        <div class="support">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            viewBox="0 0 20 20"
+            fill="none"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10ZM18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10ZM11.4142 6.58579C12.1953 7.36683 12.1953 8.63317 11.4142 9.41421L9.29333 11.5325C8.90257 11.9227 8.90217 12.5559 9.29245 12.9467C9.68273 13.3374 10.3159 13.3378 10.7067 12.9475L12.828 10.8289C14.3905 9.26633 14.3905 6.73367 12.8284 5.17157C11.2663 3.60948 8.73367 3.60948 7.17157 5.17157C6.78105 5.5621 6.78105 6.19526 7.17157 6.58579C7.5621 6.97631 8.19526 6.97631 8.58579 6.58579C9.36683 5.80474 10.6332 5.80474 11.4142 6.58579ZM10 16C10.5523 16 11 15.5523 11 15C11 14.4477 10.5523 14 10 14C9.44771 14 9 14.4477 9 15C9 15.5523 9.44771 16 10 16Z"
+              fill="#548BC5"
+            />
+          </svg>
+          <p>
+            <strong> Need any help?</strong> Don’t hesitate to contact <br />
+            support!
+          </p>
+        </div>
+        <div class="down-img">
+          <img src="assets/powered_by_stripe.png" alt="" />
+        </div>
+      </div>
+
+      <!-- ASIDE  -->
+      <div class="freelancer">
+        <h3>Freelancer</h3>
+        <h1 class="price"><sup>$</sup>99<small>/year</small></h1>
+        <p class="description">Automatically renews after 1 year</p>
+
+        <div class="list">
+          <ul>
+            <li>
+              <p><i class="bi bi-check-circle"></i>Use on 5 client sites</p>
+            </li>
+            <li>
+              <p><i class="bi bi-check-circle"></i>Private Repositories</p>
+            </li>
+            <li>
+              <p><i class="bi bi-check-circle"></i>Email Support</p>
+            </li>
+          </ul>
+          <p class="description">
+            Need 20 client sites? <br />
+            <br />
+            <strong>Switch to the Agency Plan.</strong>
+          </p>
+
+          <div class="testimony">
+            <p>
+              FTP is horrible to deal with. WP Pusher solves that issue, and the
+              customer support is awesome!
+            </p>
+            <div>
+              <img src="assets/Bitmap.png" alt="" />
+              <h3 class="author">Kirk Beard</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <p class="terms">
+      © 2018 WP Pusher IVS &nbsp; &nbsp;· &nbsp; &nbsp;<a href="#">
+        Terms of Service</a
+      >
+    </p>
+  </body>
+</html>
